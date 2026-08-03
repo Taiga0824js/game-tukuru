@@ -3,10 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>ゲーム一覧</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background: #f4f4f4;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .game-card {
+      display: inline-block;
+      width: 260px;
+      padding: 30px 20px;
+      background: white;
+      color: #222;
+      text-decoration: none;
+      border-radius: 16px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .game-card:hover {
+      transform: translateY(-4px);
+    }
+  </style>
 </head>
+
 <body>
   <h1>ゲーム一覧</h1>
-  <p>ゲーム作品を公開しています。</p>
+
+  <a class="game-card" href="./suika/">
+    <h2>スイカゲーム</h2>
+    <p>同じフルーツを合体させるゲーム</p>
+  </a>
 </body>
 </html>
